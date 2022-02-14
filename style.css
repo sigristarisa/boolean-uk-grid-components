@@ -1,0 +1,50 @@
+.container {
+  padding: 8px;
+  border: 2px dotted lightblue;
+}
+
+.box {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 4px;
+  border: 2px dotted lightcoral;
+}
+
+.inner-box {
+  min-width: 40px;
+  min-height: 40px;
+  border: 2px dotted lightgreen;
+}
+
+.logo {
+  min-width: 40px;
+  min-height: 40px;
+  border: 2px dotted rgb(58, 143, 2);
+}
+
+/* Don't touch this END */
+
+/* Write CSS Here */
+
+.three-column-grid {
+}
+
+.two-column-grid__expand-two {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.five-column-grid {
+}
+
+.center-grid {
+}
+
+.centered {
+}
+
+/* Grid within Grid Section */
+/* Practice re-using classes */
+
+.two-column-grid {
+}

@@ -22,29 +22,64 @@
   border: 2px dotted rgb(58, 143, 2);
 }
 
-/* Don't touch this END */
-
-/* Write CSS Here */
-
-.three-column-grid {
-}
-
+/* Two Column Grid (Icon Pattern) */
 .two-column-grid__expand-two {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 9fr;
+  gap: 5px;
 }
 
+/* Three Column Grid */
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+/* Three Column Grid with Expansion */
+.three-column-grid__expand-two {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 5px;
+}
+
+/* Five Column Grid */
 .five-column-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
 }
 
+/* Center Grid */
 .center-grid {
+  display: grid;
+  place-items: center;
 }
 
 .centered {
+  width: 150px;
 }
 
-/* Grid within Grid Section */
-/* Practice re-using classes */
-
+/* Grid within Grid #1 */
 .two-column-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.box-left {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.box-right {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+/* Grid within Grid #2 (Expansion) */
+.expand {
+  width: auto;
 }
